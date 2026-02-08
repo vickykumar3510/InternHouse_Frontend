@@ -23,7 +23,7 @@ const JobDetails = () => {
           <p className="card-text"><strong>Salary:</strong> Rs. {selectedJob?.salary}</p>
           <p className="card-text"><strong>Job Type:</strong> {selectedJob?.jobType}</p>
           <p className="card-text"><strong>Description:</strong> {selectedJob?.jobDescription}</p>
-          <p className="card-text"><strong>Qualification:</strong></p> 
+          <p className="card-text"><strong>Qualifications:</strong></p> 
           <ol>{selectedJob?.requiredQualification.map((r, idx) => (
             <li key={idx}>{r}</li>
           ))}</ol>

@@ -98,7 +98,7 @@ const PostJob = () => {
                 <label htmlFor="jobDescription" className="form-label">Job Description:</label>
                 <textarea placeholder="enter job description" value={newJob.jobDescription} name="jobDescription" type="text" id="jobDescription" onChange={handleChange} className="form-control"></textarea><br/>
 
-                <label htmlFor="requiredQualification" className="form-label">Job Qualification:</label>
+                <label htmlFor="requiredQualification" className="form-label">Job Qualifications:</label>
                             <textarea placeholder="enter required qualification(s)" value={newJob.requiredQualification} name="requiredQualification" type="text" id="requiredQualification" onChange={handleChange} className="form-control"></textarea><br/>
 
                 <button className="btn btn-primary" type="submit">Post Job</button>
