@@ -3,13 +3,13 @@
 A full-stack user-friendly platform to browse, post, and manage job listings effortlessly. Designed with responsive layouts for seamless access on any device.
 
 ## Demo Link
-[Live Demo](vercel frontend link)
+[Live Demo](https://intern-house-frontend-one.vercel.app)
 
 ## Quick Start
 
 ```
-git clone "git clone link"
-cd <git clone name>
+git clone "https://github.com/vickykumar3510/InternHouse_Frontend.git"
+cd <InternHouse_Frontend.git>
 npm install
 npm run dev
 ```
@@ -22,7 +22,7 @@ npm run dev
  * MongoDB
 
 ## Demo Video
-Watch a walkthrough of all the major features of this app: [Google Drive Link](add google drive link)
+Watch a walkthrough of all the major features of this app: [Google Drive Link](https://drive.google.com/drive/folders/13Tnx4N5oDotUo2FDkZuiUHwddqLmSk90?usp=sharing)
 
 ## Features
 
