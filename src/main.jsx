@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import JobDetails from './pages/jobDetailsPage.jsx'
+import JobDetailsPage from './pages/JobDetailsPage.jsx'
 import PostJob from './pages/PostJob.jsx'
 import { JobProvider } from './contexts/JobContext.jsx';
 
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/jobdetails/:jobId',
-    element: <JobDetails/>
+    element: <JobDetailsPage/>
   },
   {
     path: '/postjob',
